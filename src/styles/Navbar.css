@@ -23,8 +23,10 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-right: 50px;
   }
+  
   
   .navbar a {
     color: white;
@@ -100,3 +102,64 @@
       display: none;
     }
   }
+
+  /* ===== Dropdown Menu (Fixes) ===== */
+.nav-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #121619;
+  flex-direction: column;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+.dropdown-item {
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  color: #121619;
+  background-color: #121619;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+  color:#121619 ;
+}
+
+/* Show dropdown on hover */
+.nav-item:hover .dropdown-menu {
+  display: flex;
+}
+.rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.accountIcon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+/* Target specifically the dropdown from the account icon */
+.accountIcon .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+

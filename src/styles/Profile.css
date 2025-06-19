@@ -1,0 +1,62 @@
+.profile-container {
+    min-height: calc(100vh - 200px); /* adjust based on your navbar + footer height */
+    padding: 100px 20px 80px;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-form label {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .profile-form input,
+  .profile-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .profile-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .profile-form button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: #ff7043;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-form button:hover {
+    background-color: #ff7043;
+  }
+  

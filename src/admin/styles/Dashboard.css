@@ -1,0 +1,80 @@
+.admin-dashboard {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 1.5rem;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .recent-orders {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .recent-orders h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .recent-orders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recent-orders th,
+  .recent-orders td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .recent-orders th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+  }
+  .recent-orders ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0;
+  }
+  
+  

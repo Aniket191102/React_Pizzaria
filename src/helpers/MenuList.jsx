@@ -10,30 +10,36 @@ export const MenuList=[
         name:'Pepperoni Pizza',
         image:Pepperoni,
         price:250,
+        category:'veg'
     },
     {
         name:'Margherita Pizza',
         image:Margherita,
         price:120,
+        category:'veg'
     },
     {
         name:'Aniket Special Pizza',
         image:PedroTechSpecial,
         price:450,
+        category:'mania'
     },
     {
         name:'Vegan Pizza',
         image:Vegan,
         price:150,
+        category:'veg'
     },
     {
         name:'Pineapple Pizza',
         image:Pineapple,
         price:350,
+        category:'nonveg'
     },
     {
         name:'Expensive Pizza',
         image:Expensive,
         price:550,
+        category:'nonveg'
     }
 ]

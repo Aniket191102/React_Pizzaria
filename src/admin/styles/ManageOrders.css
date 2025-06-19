@@ -1,0 +1,30 @@
+.admin-view-container {
+    padding: 20px;
+    background: #fff;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .admin-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #888;
+  }
+  

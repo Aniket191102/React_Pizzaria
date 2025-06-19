@@ -12,19 +12,11 @@ function About() {
       <div className="aboutBottom">
         <h1>ABOUT US</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-          error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-          officiis modi at sunt excepturi expedita sint? Sed quibusdam
-          recusandae alias error harum maxime adipisci amet laborum.
-          Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
-          cumque velit
+        <center>Welcome to Aniket’s Pizzaria – where passion meets pizza!<br/><br/></center>
+        At Aniket’s Pizzaria, we believe that great pizza starts with great ingredients and a whole lot of love. Founded with the dream of serving mouth-watering, hand-tossed pizzas in a cozy, friendly environment, we’re more than just a pizza place — we’re a slice of home.<br/>
+        Every pizza we make is crafted with fresh dough, house-made sauces, and premium toppings to bring you the perfect balance of flavor, texture, and satisfaction. Whether you’re a classic Margherita fan or love exploring bold new toppings, we’ve got something hot and delicious waiting for you.<br/>
+        Our commitment to quality, community, and comfort has made us a favorite for families, foodies, and pizza lovers of all ages.<br/>
+        So come on in — or order online — and experience why Aniket’s Pizzaria is the ultimate destination for pizza with heart.
         </p>
       </div>
     </div>

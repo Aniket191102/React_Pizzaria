@@ -1,0 +1,54 @@
+.orders-page {
+    padding: 40px 20px;
+    min-height: 100vh;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .orders-page h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 700px;
+  }
+  
+  .order-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .status {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .status.delivered {
+    background-color: #c8e6c9;
+    color: #256029;
+  }
+  
+  .status.ontheway {
+    background-color: #fff9c4;
+    color: #795548;
+  }
+  

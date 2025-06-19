@@ -1,0 +1,102 @@
+.admin-view-container {
+  padding: 30px;
+  background: #f9f9f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-bar h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn.add {
+  background-color: #ff7043;
+  color: white;
+}
+
+.btn.update {
+  background-color: #007bff;
+  color: white;
+  margin-right: 5px;
+}
+
+.btn.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.admin-form.horizontal {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+
+.admin-form input[type="text"],
+.admin-form input[type="file"],
+.admin-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  /* border-radius: 8px; */
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: 600;
+}
+
+.category-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.no-data {
+  text-align: center;
+  padding: 30px;
+  color: #999;
+}
+
